@@ -10,11 +10,11 @@
 using namespace std;
 int main() {
 	heap h;
-	h.insert("Trey");
-	h.insert("Anderson");
-	h.insert("assignment 9");
-	h.insert("this is a small test");
-	h.insert("this is a test for heap");
+	h.insert("1");
+	h.insert("5");
+	h.insert("4");
+	h.insert("3");
+	h.insert("2");
 	h.print();
 	while (h.size() > 0) {
 		cout << h.min() << endl;
